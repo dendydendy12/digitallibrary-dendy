@@ -198,9 +198,9 @@
         </div>
 
         <div class="nav-links">
-            <a href="#">Beranda</a>
-            <a href="#">Koleksi</a>
-            <a href="#">Tentang Kami</a>
+            <a href="/">Beranda</a>
+            <a href="/book">Koleksi</a>
+            <a href="/about">Tentang Kami</a>
             <a href="#" class="btn-login">Login</a>
             <a href="#" class="btn-signup">Daftar</a>
         </div>
