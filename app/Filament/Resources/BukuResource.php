@@ -29,6 +29,7 @@ class BukuResource extends Resource
                     ->maxLength(255),
 
                 Forms\Components\FileUpload::make('cover')
+                    ->disk('public')
                     ->required()
                     ->image(),
 
@@ -70,6 +71,7 @@ class BukuResource extends Resource
 
                 Tables\Columns\ImageColumn::make('cover')
                     ->label('Cover Buku')
+                    ->disk('public')
                     // ->image()
                     ->size(50), // Opsi ukuran gambar
 
